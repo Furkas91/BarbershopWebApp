@@ -1,0 +1,8 @@
+/.idea
+/BarbershopWebApp.WebAPI/appsettings.json
+BarbershopWebApp.WebAPI/bin
+BarbershopWebApp.BLL/bin
+BarbershopWebApp.Client/bin
+BarbershopWebApp.BLL.Tests.Unit/bin
+BarbershopWebApp.DAL/bin
+BarbershopWebApp.Domain/bin

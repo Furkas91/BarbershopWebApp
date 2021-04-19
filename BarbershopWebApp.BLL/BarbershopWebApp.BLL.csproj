@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="EntityFramework" Version="6.4.4" />
+        <PackageReference Include="Ninject" Version="4.0.0-beta-0134" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <ProjectReference Include="..\BarbershopWebApp.DAL\BarbershopWebApp.DAL.csproj" />
+        <ProjectReference Include="..\BarbershopWebApp.Domain\BarbershopWebApp.Domain.csproj" />
+    </ItemGroup>
+    
+</Project>
